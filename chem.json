@@ -1,0 +1,60 @@
+{
+    "datasetJSONCreationDateTime": "2025-05-05T03:18:14",
+    "datasetJSONVersion": "1.1.0",
+    "itemGroupOID": "itemGroup.CHEM",
+    "records": 2,
+    "name": "CHEM",
+    "label": "Chemistry Results from Lab Vendor",
+    "columns": [
+        {
+            "itemOID": "IT.CHEM.PatientID",
+            "name": "Patient ID",
+            "label": "Patient ID",
+            "dataType": "string",
+            "length": 10
+        },
+        {
+            "itemOID": "IT.CHEM.Requisition",
+            "name": "Requisition",
+            "label": "Requisition",
+            "dataType": "string",
+            "length": 10
+        },
+        {
+            "itemOID": "IT.CHEH.Timestamp",
+            "name": "Timestamp",
+            "label": "Timestamp",
+            "dataType": "datetime",
+            "length": 20
+        },
+        {
+            "itemOID": "IT.CHEM.Analyte",
+            "name": "Analyte",
+            "label": "Analyte",
+            "dataType": "string"
+        },
+        {
+            "itemOID": "IT.CHEM.Value",
+            "name": "Value",
+            "label": "Value",
+            "dataType": "float",
+            "length": 12
+        }
+    ],
+    "rows": [
+        [
+            "P001",
+            "REQ001",
+            "2025-05-05T03:18:14",
+            "Alkaline Phosphatase",
+            135.0
+        ],
+        [
+            "P002",
+            "REQ002",
+            "2025-05-05T03:18:14",
+            "Alanine Aminotransferase",
+            4.0 
+        ]
+    ]
+}
